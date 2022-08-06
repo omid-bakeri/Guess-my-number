@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <title>Guess My Number</title>
+    <meta lang="en" dir="ltr" />
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/786/786430.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <button class="againButton" onclick="againButtonFunction()">Again</button>
+            <p>
+                <h1 class="topText">
+                    Between 1 to 20
+                </h1>
+            </p>
+            <h1 class="GMN_play">
+                Guess My Number !
+            </h1>
+            <div class="line-left">
+
+            </div>
+            <div class="line-right">
+
+            </div>
+            <div class="ReqQuesShape">
+                ?
+            </div>
+            <input type="text" name="text" class="text">
+            <button onclick="myFunction()" class="checkButton">Check !</button>
+            <div class="textGuess">
+                Start Guesssing ...
+            </div>
+            <div class="score">
+                Score: 20
+            </div>
+            <!-- <div class="HighScore">
+                HighScore: 0
+            </div> -->
+            <button onclick="Start()" class="start" title="start" id="start" type="button">start</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
